@@ -20,7 +20,7 @@ public class Build {
     public static final String KOMODO_VERSION = getString("org.komodo.version");
 
     /** A build ID string meant for displaying to the user */
-    public static final String KOMODO_DISPLAY_VERSION = getString("org.komodo.display.version");
+    public static final String KOMODO_DISPLAY_VERSION = getString("org.komodo.version.display");
 
     private static final SparseArray<String> sdkMap;
     static
